@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${ubuntu.variable} font-sans antialiased`}
+        className={`${ubuntu.variable} font-sans antialiased scroll-smooth`}
       >
         <ThemeProvider
           attribute="class"
