@@ -20,7 +20,7 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 flex flex-col min-h-screen">
           <header className="p-6 flex justify-between items-center">
-            <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-400 drop-shadow-[0_1px_1px_rgba(0,0,0,0.3)]">
+            <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-400 drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)]">
               SOCIALITICOS
             </h1>
             <nav>
@@ -32,7 +32,7 @@ export default function Home() {
           </header>
 
           <main className="container mx-auto px-6 py-12 text-center flex-grow flex flex-col justify-center">
-            <h2 className="text-7xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-500 leading-tight max-w-5xl mx-auto drop-shadow-[0_1px_1px_rgba(0,0,0,0.3)]">
+            <h2 className="text-7xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-500 leading-tight max-w-5xl mx-auto drop-shadow-[0_1px_3px_rgba(0,0,0,0.3)]">
               La Red Social para<br />Políticos del Futuro
             </h2>
             <p className="text-2xl mb-12 text-white max-w-2xl mx-auto">Conecta, debate y analiza en la plataforma líder para líderes políticos y ciudadanos comprometidos.</p>
