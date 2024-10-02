@@ -10,9 +10,8 @@ export default function Home() {
           <Image
             src="/fondo1.jpg"
             alt="Fondo político"
-            width={1920}
-            height={1080}
-            objectFit="cover"
+            layout="fill"
+            className="object-cover"
             quality={70}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-blue-900 via-blue-900/50 to-transparent"></div>
