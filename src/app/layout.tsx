@@ -20,9 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${ubuntu.variable} font-sans antialiased scroll-smooth`}
+        className={`${ubuntu.variable} font-sans antialiased`}
       >
         <ThemeProvider
           attribute="class"
