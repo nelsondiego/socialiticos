@@ -11,7 +11,7 @@ export default function Home() {
             src="/fondo1.jpg"
             alt="Fondo político"
             layout="fill"
-            className="object-cover"
+            className="object-cover w-full h-auto"
             quality={70}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-blue-900 via-blue-900/50 to-transparent"></div>
@@ -52,7 +52,7 @@ export default function Home() {
                 { icon: BarChart, title: "Encuestas y Sondeos", description: "Crea y participa en encuestas para medir la opinión pública." },
                 { icon: Shield, title: "Seguridad y Privacidad", description: "Protección de datos y comunicaciones encriptadas." },
               ].map((feature, index) => (
-                <div key={index} className="bg-white/20 p-4 sm:p-6 rounded-lg backdrop-blur-md">
+                <div key={index} className="bg-blue-900/20 p-4 sm:p-6 rounded-lg backdrop-blur-md  shadow-xl">
                   <feature.icon className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 text-white" />
                   <h3 className="text-xl sm:text-2xl font-bold mb-2 text-white">{feature.title}</h3>
                   <p className="text-white text-sm sm:text-base">{feature.description}</p>
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
 
             <div id="descargar" className="mb-12 sm:mb-16">
-              <h3 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-white">Descarga Nuestra App</h3>
+              <h3 className="text-xl sm:text-2xl  mb-4 sm:mb-6 text-white">¡Descarga la Versión Móvil</h3>
               <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
                 <a href="#" className="flex items-center bg-black text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg hover:bg-gray-800 transition w-full sm:w-auto">
                   <Image src="/apple-logo.svg" alt="Apple logo" width={20} height={20} className="mr-2" />
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="bg-blue-900 text-white py-4 sm:py-6 text-center text-sm sm:text-base">
+      <footer className="bg-slate-900 text-slate-50 py-4 sm:py-6 text-center text-sm sm:text-base">
         <p>&copy; 2024 Socialiticos. Todos los derechos reservados.</p>
       </footer>
     </div>
