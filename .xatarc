@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://SOCIALITICOS-kfe24g.us-east-1.xata.sh/db/socialiticos",
+  "codegen": {
+    "output": "src/lib/xata.ts"
+  }
+}
