@@ -16,7 +16,7 @@ const AuthLayout = ({children}: PropsWithChildren) => {
       <div className="hidden lg:block h-screen relative">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-pink-500 dark:from-pink-800 dark:to-blue-700"></div>
         <Image
-          src="/people2.jpg"
+          src={`/people2.jpg`}
           alt="Gente en la calle"
           width="1000"
           height="1000"
